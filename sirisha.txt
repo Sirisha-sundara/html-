@@ -1,0 +1,11 @@
+array_size=int(input("enter array size"))
+arr=list()
+for i in range(0,array_size-1):
+    number=int(input("enter element",i))
+    arr.append(number)
+    min=9999
+    max=0
+    for i in range(0,,array_size-1):
+        if(max<arr[i]<min):
+            min=max=arr[i]
+    print(min,max)
